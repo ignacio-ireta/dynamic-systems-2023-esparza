@@ -20,7 +20,7 @@ def main():
         # a = 0.5
         # b = 3.0
         # x0 = 0.5
-        r = 1
+        r = 10
         N = 100
         i = np.arange(0, N, 1)
         x = x0
