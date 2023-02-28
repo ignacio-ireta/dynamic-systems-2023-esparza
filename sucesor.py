@@ -8,7 +8,7 @@ def successor(number):
 
     for i in range(1, number + 1):
 
-        rationals.append(f'\ufe68frac \u007b1\u007d \u007b10**{i}\u007d')
+        rationals.append(f'\ufe68frac \u007b1\u007d \u007b10{i}\u007d')
         results.append(1/(10**i))
 
     return rationals, results
